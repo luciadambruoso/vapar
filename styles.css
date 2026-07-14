@@ -19,10 +19,26 @@ a:hover{text-decoration-color:var(--gold)}
 .eyebrow{font-family:var(--mono); font-size:.72rem; letter-spacing:.18em; text-transform:uppercase; color:var(--mono-ink)}
 section{scroll-margin-top:90px}
 
+/* hero banner */
+.hero-banner{position:relative}
+.hero-banner img{width:100%; height:clamp(280px,42vw,440px); object-fit:cover; display:block}
+.hero-banner .ovl{position:absolute; inset:0; background:linear-gradient(180deg, rgba(24,38,30,.10) 35%, rgba(24,38,30,.74))}
+.hero-banner .htxt{position:absolute; left:0; right:0; bottom:30px}
+.hero-banner h1{font-family:var(--disp); font-weight:700; color:#fff; font-size:clamp(1.8rem,4.4vw,2.9rem); line-height:1.12; letter-spacing:-.01em; max-width:24ch; margin-top:8px; text-shadow:0 1px 14px rgba(0,0,0,.35)}
+.hero-banner .eyebrow{color:var(--gold-soft)}
+.su-tools{display:grid; grid-template-columns:320px 1fr; gap:40px; align-items:start}
+a.tile{display:flex; flex-direction:column; text-decoration:none; background:var(--card); border:1px solid var(--line); border-radius:6px; overflow:hidden; transition:background .18s ease, transform .18s ease, border-color .18s ease}
+a.tile img{width:100%; height:140px; object-fit:cover; border-bottom:1px solid var(--line)}
+a.tile .pad{padding:18px 20px 20px}
+a.tile:hover{background:#DFF0E4; border-color:var(--green-soft); transform:translateY(-3px)}
+@media(max-width:900px){.su-tools{grid-template-columns:1fr}}
+@media print{.hero-banner img{height:180px} .hero-banner .ovl{display:none} .hero-banner h1{color:#000; text-shadow:none} a.tile img{display:none}}
 /* header */
 header.top{position:sticky; top:0; z-index:50; background:rgba(251,250,244,.94); backdrop-filter:blur(8px); border-bottom:1px solid var(--line)}
 .top .wrap{display:flex; align-items:center; justify-content:space-between; gap:16px; min-height:64px; flex-wrap:wrap; padding-top:8px; padding-bottom:8px}
-.brand{display:flex; flex-direction:column; text-decoration:none; color:var(--ink)}
+.brand{display:flex; align-items:center; gap:11px; text-decoration:none; color:var(--ink)}
+.brandmark{height:42px; width:auto}
+.brandtxt{display:flex; flex-direction:column}
 .brand b{font-family:var(--disp); font-weight:700; font-size:1.12rem; letter-spacing:.02em; color:var(--green)}
 .brand small{font-family:var(--mono); font-size:.6rem; letter-spacing:.14em; text-transform:uppercase; color:var(--mono-ink)}
 nav.anchors{display:flex; flex-wrap:wrap; gap:4px 18px}
