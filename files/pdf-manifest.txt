@@ -1,0 +1,19 @@
+VAPAR SITE — REMAINING RESCUE LIST (updated)
+============================================
+Nearly everything is now LOCAL in this repository: all research briefs,
+manuals, ethics modules, the 2026 policy briefs, Jennifer's thesis, the
+radio series audio, and 45+ images.
+
+STILL HOT-LINKED FROM WIX (save these before cancelling; right-click each
+image on the live site and save, then send to Claude to wire in):
+  People portraits: Lucia D'Ambruoso, Jennifer Hove, Kathleen Kahn,
+    Denny Mabetha, Nombuyiselo Nkalanga, Steve Tollman, Rhian Twine,
+    Maria van der Merwe  (people.html)
+  Peter Byass banner photo (byass-tribute.html)
+  News grid thumbnails on news.html (~25 small images)
+  Home page site logo strip if wanted (logo-vapar.png is already local)
+
+EXTERNAL LINKS THAT ARE FINE (not Wix, will not break):
+  abdn.ac.uk presentation PDFs (ESRC / UCL pages), DOIs, YouTube,
+  The Conversation, transistor.fm, captivate.fm, chwcentral.org,
+  medicalresearchfoundation.org.uk, radiosa.org
