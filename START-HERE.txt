@@ -1,0 +1,30 @@
+VAPAR CORRECTED DRAG-AND-DROP UPLOAD
+
+This bundle incorporates all of the corrections requested today.
+
+WHAT HAS BEEN FIXED
+- The scale-up page is restored to a full page rather than the shortened version.
+- Ehlanzeni, Nkangala and Gert Sibande are each shown with their own district image.
+- The Value in sequence section again uses the correct clinic tool images: wall.jpg and tree.jpg.
+- The four tool cards, six findings, evidence status and implementation timeline are restored.
+- The “Scientific paper to add on publication” editing note has been removed completely.
+- No confidential provincial workshop document is linked.
+- The Resources page uses the same button label — “Read more” — throughout.
+- Maria Mambane and Mikateko Temba are included on the People page with separate blank profile pictures that can be replaced later.
+- Cheryl Nelson and Hajara Muhammad Abubakar also have blank profile pictures ready to replace.
+- The surname is standardized as Temba.
+- The full News archive and the new News images are included.
+- The homepage retains its original design, with only the requested CHW-training heading change.
+- Twitter/X is removed; Facebook and YouTube remain.
+- Scientific papers is retained as the site label.
+
+HOW TO UPLOAD
+1. Unzip this ZIP file on your computer.
+2. Open the folder called UPLOAD-TO-REPO.
+3. In the main GitHub repository, choose Add file > Upload files.
+4. Drag everything INSIDE UPLOAD-TO-REPO into the upload area, including the images folder.
+5. Commit the changes.
+
+Do not upload the outer ZIP itself.
+
+The existing district and tool images are already in your GitHub images folder. The new images included here are the News images and the blank profile placeholders.
